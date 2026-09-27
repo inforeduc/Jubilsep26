@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-label="Ministerio del Poder Popular para la Educación">
+<defs><style>.t{font-family:Arial,Helvetica,sans-serif;fill:#4b4b4b}.b{font-weight:700}</style></defs>
+<g transform="translate(10 10)">
+ <circle cx="75" cy="80" r="58" fill="none" stroke="#00a650" stroke-width="16" stroke-dasharray="88 18 64 16 44 16"/>
+ <path d="M75 22 A58 58 0 0 0 29 46" fill="none" stroke="#ed1c24" stroke-width="16"/>
+ <path d="M29 46 A58 58 0 0 0 20 105" fill="none" stroke="#00a9e0" stroke-width="16"/>
+ <path d="M20 105 A58 58 0 0 0 55 134" fill="none" stroke="#f7c900" stroke-width="16"/>
+ <path d="M55 134 A58 58 0 0 0 104 132" fill="none" stroke="#ff5b2d" stroke-width="16"/>
+ <path d="M104 132 A58 58 0 0 0 132 92" fill="none" stroke="#1b3f92" stroke-width="16"/>
+ <path d="M132 92 A58 58 0 0 0 128 50" fill="none" stroke="#8d2a9d" stroke-width="16"/>
+ <circle cx="75" cy="80" r="28" fill="#fff"/>
+ <path d="M72 14l-10-14M80 14V-3M88 16l7-14" stroke="#ef3b35" stroke-width="6" stroke-linecap="round"/>
+</g>
+<text x="160" y="65" class="t" font-size="27">Ministerio del Poder Popular</text>
+<text x="160" y="99" class="t" font-size="27">para la <tspan class="b">Educación</tspan></text>
+<rect x="160" y="112" width="360" height="2" fill="#666"/>
+</svg>
