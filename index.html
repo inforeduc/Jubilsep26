@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Consulta individual de la lista de jubilaciones del personal adscrito al MPPE, Resolución N° 012 de 24.08.2026.">
+  <title>Consulta de Jubilaciones MPPE 2026</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-left"><img src="assets/mppe-logo.svg" alt="Ministerio del Poder Popular para la Educación"></div>
+    <div class="brand-right"><img src="assets/gd-logo.png" alt="Gremio Docente Venezuela"></div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow">MINISTERIO DEL PODER POPULAR PARA LA EDUCACIÓN</div>
+      <h1>Consulta de Jubilaciones MPPE</h1>
+      <p class="subtitle">Personal adscrito al MPPE · Resolución N.º 012 de fecha 24.08.2026</p>
+      <div class="source-pill">Gaceta Oficial N.º 43.451 · 03.09.2026</div>
+    </section>
+
+    <section class="card search-card" aria-labelledby="consulta-title">
+      <h2 id="consulta-title">Consultar por número de cédula</h2>
+      <p class="hint">Escribe la cédula solamente con números. También puedes introducirla con puntos o guiones.</p>
+      <form id="searchForm" class="search-form" autocomplete="off">
+        <label for="cedula">Número de cédula</label>
+        <div class="input-row">
+          <input id="cedula" name="cedula" inputmode="numeric" pattern="[0-9.\- ]+" maxlength="14" placeholder="Ej.: 9.123.456" aria-describedby="help" required>
+          <button type="submit">Consultar</button>
+        </div>
+        <div id="help" class="help">La búsqueda se realiza localmente en esta página.</div>
+      </form>
+      <div id="result" class="result" aria-live="polite"></div>
+    </section>
+
+    <section class="legend card">
+      <h2>Condición laboral</h2>
+      <div class="legend-grid">
+        <div><span class="badge docente">D</span><strong>Docente</strong></div>
+        <div><span class="badge obrero">O</span><strong>Obrero</strong></div>
+        <div><span class="badge admin">A</span><strong>Administrativo</strong></div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <strong>Fuente y alcance:</strong> datos transcritos del documento suministrado para esta página: “Jubilaciones del personal adscrito al MPPE”, Resolución N.º 012 de fecha 24.08.2026, Gaceta Oficial N.º 43.451 de fecha 03.09.2026. La página reproduce la información del documento y no constituye una certificación del MPPE.
+    </section>
+  </main>
+
+  <footer>
+    Consulta informativa · Base: 4.912 registros · 2026
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
